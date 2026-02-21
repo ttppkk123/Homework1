@@ -78,3 +78,28 @@ p {
     padding: 15px;
     flex-grow: 1;
 }
+
+footer {
+    margin-top: 50px;
+    padding: 20px 10px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+
+footer a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
