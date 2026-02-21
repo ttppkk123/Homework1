@@ -16,3 +16,24 @@ body {
     text-align: center;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ffffff;
+    color: rgb(249, 247, 247);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 80px;
+    width: 90%;
+}
+
+nav a {
+    color: rgb(12, 12, 12);
+    margin-left: 15px;
+}
+
+.logo img {width: 150px; height: 100px;}
